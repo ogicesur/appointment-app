@@ -1,27 +1,48 @@
-# AppointmentApp
+# Appointment App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+**Appointment App** is a web application built with Angular, designed to help users manage appointments efficiently. This application offers features like scheduling, updating, and viewing appointments in an intuitive and user-friendly interface.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Appointment Scheduling**: Create and manage appointments with detailed information.
+- **Appointment Updates**: Modify existing appointments seamlessly.
+- **View Calendar**: Browse scheduled appointments in a calendar view.
+- **Search and Filter**: Easily locate specific appointments by date or keyword.
+- **Responsive Design**: Optimized for devices of all sizes, including desktops, tablets, and mobile phones.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: Framework for building robust and dynamic web applications.
+- **TypeScript**: A strongly typed programming language for scalable application development.
+- **HTML & CSS**: For creating a responsive and modern user interface.
 
-## Build
+## Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To run this project locally, ensure you have the following installed:
 
-## Running unit tests
+- [Node.js](https://nodejs.org/) (version 16 or higher)
+- npm (comes bundled with Node.js)
+- [Angular CLI](https://angular.io/cli) (version 18.2.11 or higher)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Getting Started
 
-## Running end-to-end tests
+Follow these steps to set up and run the project locally:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Clone the Repository
 
-## Further help
+```bash
+git clone https://github.com/ogicesur/appointment-app.git
+cd appointment-app
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Install Dependencies
+
+Run the following command to install all required dependencies:\
+`npm install`
+
+### Run the Development Server
+
+Start the application in development mode:\
+
+`npm start`
+
